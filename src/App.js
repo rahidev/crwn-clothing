@@ -8,6 +8,8 @@ import HomePage from './pages/homepage/homepage.component';
 
 import Shop from './pages/shop/shop.component';
 
+import AuthPage from './pages/auth-page/auth-page.component';
+
 import './App.css';
 
 const App = () => (
@@ -16,6 +18,7 @@ const App = () => (
     <Switch>
       <Route exact path='/' component={HomePage} />
       <Route exact path='/shop' component={Shop} />
+      <Route exact path='/signin' component={AuthPage} />
     </Switch>
 
   </div>
